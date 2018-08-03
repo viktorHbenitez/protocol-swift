@@ -36,7 +36,7 @@ func editNameViewControllerDidFinish(newName: String?) {
     
 }
 ```
-Class A adopts the protocol  is like signing a contract with class B and this contract says “Any class adopting me MUST use my functions!”
+Class A adopts the protocol  is like signing a contract with class B and this contract says “Any class adopting me MUST use my functions!”  
 ![imagen](../master/assets/memeOne.jpg)
 
 Step 5. Class A create a reference of Class B and bind them through the prepareforsegue method.  
