@@ -41,6 +41,7 @@
 		887593531FFD50CF005B7345 = {
 			isa = PBXGroup;
 			children = (
+				E45FC5E32113D4AF0091D10B /* protocolSwift.md */,
 				8875935E1FFD50CF005B7345 /* protocolsSwift3 */,
 				8875935D1FFD50CF005B7345 /* Products */,
 			);
@@ -64,7 +65,6 @@
 				887593681FFD50CF005B7345 /* LaunchScreen.storyboard */,
 				8875936B1FFD50CF005B7345 /* Info.plist */,
 				887593731FFD528D005B7345 /* EditNameViewController.swift */,
-				E45FC5E32113D4AF0091D10B /* protocolSwift.md */,
 			);
 			path = protocolsSwift3;
 			sourceTree = "<group>";
