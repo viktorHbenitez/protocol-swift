@@ -12,6 +12,7 @@
 		887593651FFD50CF005B7345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887593631FFD50CF005B7345 /* Main.storyboard */; };
 		887593671FFD50CF005B7345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887593661FFD50CF005B7345 /* Assets.xcassets */; };
 		8875936A1FFD50CF005B7345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887593681FFD50CF005B7345 /* LaunchScreen.storyboard */; };
+		887593741FFD528D005B7345 /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887593731FFD528D005B7345 /* EditNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		887593661FFD50CF005B7345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887593691FFD50CF005B7345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8875936B1FFD50CF005B7345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887593731FFD528D005B7345 /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		E45FC5E32113D4AF0091D10B /* protocolSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = protocolSwift.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				887593661FFD50CF005B7345 /* Assets.xcassets */,
 				887593681FFD50CF005B7345 /* LaunchScreen.storyboard */,
 				8875936B1FFD50CF005B7345 /* Info.plist */,
+				887593731FFD528D005B7345 /* EditNameViewController.swift */,
+				E45FC5E32113D4AF0091D10B /* protocolSwift.md */,
 			);
 			path = protocolsSwift3;
 			sourceTree = "<group>";
@@ -91,7 +96,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Victor ";
 				TargetAttributes = {
 					8875935B1FFD50CF005B7345 = {
@@ -136,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887593741FFD528D005B7345 /* EditNameViewController.swift in Sources */,
 				887593621FFD50CF005B7345 /* ViewController.swift in Sources */,
 				887593601FFD50CF005B7345 /* AppDelegate.swift in Sources */,
 			);
@@ -177,6 +183,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +191,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +242,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +250,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -275,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454Y8VLD4V;
 				INFOPLIST_FILE = protocolsSwift3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.protocolsSwift3;
@@ -289,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 454Y8VLD4V;
 				INFOPLIST_FILE = protocolsSwift3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.protocolsSwift3;
